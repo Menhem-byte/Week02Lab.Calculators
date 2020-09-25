@@ -10,6 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Age Calculator</title>
+        <link href="style/design.css" rel="stylesheet" type="text/css" >
     </head>
     <body>
         <form method="post" action="age">
@@ -18,7 +19,7 @@
         <label>
            Enter your age :
         </label>
-        <input type="text" name="agenum" value="" min="0" max="100">
+        <input type="text" name="agenum" value="${Value}">
         <br>
         <br>
         <br>
@@ -26,7 +27,7 @@
         <br>
         <br>
         <h2>${Age}</h2>
-        <a href="#">Arithmetic Calculator</a>
+        <a href="arithmetic">Arithmetic Calculator</a>
        
         </form>
         

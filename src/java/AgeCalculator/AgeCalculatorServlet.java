@@ -38,16 +38,18 @@ public class AgeCalculatorServlet extends HttpServlet {
         
         if(age==null || age.equals("")){
          request.setAttribute("Age","You must give your current age");
+         request.setAttribute("Value",age);
         }
         
         else if(checkString(age)==true){
-         
+         request.setAttribute("Value",age);
              int ageinteger=Integer.parseInt(age);
         ageinteger+=1;
         request.setAttribute("Age","your age  next birthday will be "+ ageinteger);
          }
        
         else{
+            request.setAttribute("Value",age);
            request.setAttribute("Age","you must enter a number");
         }
         

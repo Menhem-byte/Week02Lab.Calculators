@@ -1,0 +1,47 @@
+
+body{
+   
+    background-color: gray;
+    background-position: center;
+    
+      margin-top: 100px;
+    margin-left: 600px;
+    margin-right: 600px
+  
+}
+
+th,h1{
+    align-content: center;
+    
+    font-style: italic;
+    
+    color: white;
+    
+}
+
+h1::first-letter{
+    
+    font-size: 60px;
+    color: darkgray;
+}
+
+input:hover{
+   background-color: darkgrey;
+   color: white;
+   border-bottom-left-radius: 45px;
+   border-bottom-right-radius: 45px;
+   border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+   
+   
+    
+}
+label,p{
+    
+    color: white;
+}
+
+a:hover{
+    background-color: darkgray;
+    color: white;
+}
